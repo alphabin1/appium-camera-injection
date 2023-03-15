@@ -1,0 +1,33 @@
+{
+  "name": "demo-camera-injection",
+  "version": "1.0.0",
+  "description": "Camera Injection Demo",
+  "main": "index.js",
+  "scripts": {
+    "wdio": "wdio config/wdio.conf.js",
+    "androidBrowser": "wdio config/wdio.androidBrowser.js"
+  },
+  "keywords": [
+    "camera-injection",
+    "appium",
+    "webdriverIO",
+    "demo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.0",
+    "@badisi/wdio-harness": "^1.0.3",
+    "@wdio/appium-service": "^7.19.1",
+    "@wdio/cli": "^7.16.16",
+    "@wdio/local-runner": "^7.16.16",
+    "@wdio/mocha-framework": "^7.16.15",
+    "appium": "^1.22.3",
+    "wdio-wait-for": "^2.2.2"
+  },
+  "dependencies": {
+    "chromedriver": "^91.0.1"
+  }
+}
