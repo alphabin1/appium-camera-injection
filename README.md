@@ -19,10 +19,10 @@
     appium
     ```
 
-    *Note : If a Chrome driver version mismatch error message appears. Download the Chrome driver that is compatible with your device and include the path in   the argument. By using this argument, restart the appium.*
+    *Note : If a Chrome driver version mismatch error message appears. By using this argument, restart the appium.*
 
     ```
-    appium --chromedriver-executable /path/to/my/chromedriver
+    appium --allow-insecure chromedriver_autodownload
     ```
 
 - Setup code
